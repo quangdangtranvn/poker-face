@@ -34,7 +34,7 @@ public class CSVToCard : MonoBehaviour
             item.name = data[0];
             item.suit = data[1];
             item.rankValue = float.Parse(data[2]);
-            AssetDatabase.CreateAsset(item, $"Assets/Scripts/CardDatas/{item.name}-{item.suit}.asset");
+            AssetDatabase.CreateAsset(item, $"Assets/Scripts/UI/Card/Data/{item.name}-{item.suit}.asset");
         }
         AssetDatabase.SaveAssets();
 

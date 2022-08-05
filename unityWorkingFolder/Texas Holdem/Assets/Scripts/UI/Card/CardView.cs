@@ -34,6 +34,10 @@ public class CardView : MonoBehaviour
     {
         img.sprite = sprite;
     }
+    public void SetCardImg(Card card)
+    {
+        img.sprite = card.image;
+    }
 
     public void SetCardInfo(Card card)
     {
@@ -44,8 +48,4 @@ public class CardView : MonoBehaviour
         this.img.sprite = card.image;
     }
 
-    public void SetCardImg(Card card)
-    {
-        img.sprite = card.image;
-    }
 }

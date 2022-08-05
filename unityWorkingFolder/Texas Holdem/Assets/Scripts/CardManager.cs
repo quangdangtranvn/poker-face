@@ -34,7 +34,7 @@ public class CardManager : MonoBehaviour
     private void Start()
     {
 
-        for (int i = 0; i < cards.Count; i++)
+        for (int i = 0; i < 13; i++)
         {
             k = i;
             SpawnCard(cards[i]);
